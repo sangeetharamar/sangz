@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+     @media screen and (min-width:767px) {
+       .mainDiv {
+      background-color: bisque;
+    }
+    .borderDiv {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-right: 25%;
+      margin-left: 25%;
+      background-color: white;
+      border-radius: 2%;
+      border: 1px solid white;
+      padding: 3%;
+    }
+    .omeimg {
+      height: 100%;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border-radius: 5%;
+    }
+
+     }
+   
+
+    @media screen and (max-width:767px) {
+     
+       .mainDiv {
+      background-color: white;
+      margin-left: 3%;
+      margin-right: 3%;
+       }
+       .borderDiv {
+          background-color: white;
+       }
+
+       .omeimg {
+          height: 100%;
+          width: 100%;
+          margin-right: 0%;
+          margin-left: 0%;
+       }
+    }
+    
+    .prepdiv {
+      background-color: papayawhip;
+      border-radius: 2%;
+    }
+
+    .headercls {
+      color: purple;
+      margin-left: 5%;
+      padding-top: 5%
+    }
+    .firstul li {
+      margin-left: 5%;
+      padding: 1%;
+    }
+   .firstul li:last-child {
+      padding-bottom: 4%;
+    } 
+    h2 {
+      color: brown;
+    }
+    .secondul li {
+      padding: 1%;
+    }
+
+    ol li {
+     padding: 2px;
+     padding-left:1em;
+    
+    }
+    .tabdiv {
+      margin-left: 2%;
+    }
+    .tabsubdiv  {
+      color: maroon;
+    }
+      
+  </style>
+</head>
+<body class="mainDiv">
+    <div class="borderDiv">
+  <img src="./assets/images/image-omelette.jpeg" class="omeimg">
+
+  <h1>Simple Omelette Recipe</h1>
+
+  <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+  to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+
+  <div class="prepdiv">
+
+    <h5 class="headercls">Preparation time</h5> 
+    <ul class="firstul">
+      <li> <b>Total</b>: Approximately 10 minutes </li>
+      <li> <b>Preparation</b>: 5 minutes </li>
+      <li> <b>Cooking</b>: 5 minutes </li>
+    </ul>  
+
+  </div>
+
+  <h2>Ingredients</h2>
+
+  <ul class="secondul">
+    <li> 2-3 large eggs</li>
+    <li> Salt, to taste</li>
+    <li> Pepper, to taste</li>
+    <li> 1 tablespoon of butter or oil</li>
+    <li> Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+  </ul>
+
+  <hr>
+ 
+  <h2> Instructions </h2>
+
+  <ol>
+    <li> <b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+  You can add a tablespoon of water or milk for a fluffier texture.</li>
+    <li>  <b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+    <li> <b>Cook the omelette</b>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+  the eggs evenly coat the surface.</li>
+    <li> <b>Add fillings (optional)</b>: When the eggs begin to set at the edges but are still slightly runny in the 
+  middle, sprinkle your chosen fillings over one half of the omelette.</li>
+    <li><b>Fold and serve</b>: As the omelette continues to cook, carefully lift one edge and fold it over the 
+  fillings. Let it cook for another minute, then slide it onto a plate.</li>
+    <li><b>Enjoy</b>: Serve hot, with additional salt and pepper if needed.</li>
+  </ol>
+  <hr>
+
+  <h2> Nutrition </h2>
+
+  <p>The table below shows nutritional values per serving without the additional fillings.</p>
+  
+  <div class="row tabdiv">
+    <div class="col-6">
+        Calories
+    </div>
+      <div class="col-6 tabsubdiv">
+          277kcal
+    </div>
+  </div>
+  <hr>
+   <div class="row tabdiv">
+    <div class="col-6 col-6">
+        Carbs
+    </div>
+      <div class="col-6 col-6 tabsubdiv">
+          0g
+    </div>
+  </div>
+  <hr>
+   <div class="row tabdiv">
+    <div class="col-6 col-6">
+        Protein
+    </div>
+      <div class="col-6 col-6 tabsubdiv">
+          20g
+    </div>
+  </div>
+  <hr>
+   <div class="row tabdiv">
+    <div class="col-6 col-6">
+        Fat
+    </div>
+      <div class="col-6 col-6 tabsubdiv">
+          22g
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sangeetha</a>.
+  </div>
+</div>
+</body>
+</html>
